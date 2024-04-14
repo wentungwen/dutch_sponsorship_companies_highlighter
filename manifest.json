@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Sponsorship Highlighter",
+  "version": "1.0",
+  "description": "Highlight the visa-sponsored Dutch companies on LinkedIn",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://wentungwen.github.io/*",
+        "https://www.linkedin.com/*",
+        "https://en.wikipedia.org/*"
+      ],
+      "js": ["scripts/highlight.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": { "type": "module" },
+  "minimum_chrome_version": "92",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://www.linkedin.com;"
+  }
+}
