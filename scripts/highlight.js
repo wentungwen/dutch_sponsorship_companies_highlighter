@@ -11084,11 +11084,11 @@ const data = {
   ],
 };
 
+const highlightClassName = ".job-card-container__primary-description";
+
 // Function to highlight matching elements
 function highlightElements(sponsorData) {
-  const selectedData = document.querySelectorAll(
-    ".job-card-container__primary-description"
-  );
+  const selectedData = document.querySelectorAll(highlightClassName);
   selectedData.forEach((element) => {
     const eleContent = element.textContent.trim().toLowerCase();
     const firstLetter = eleContent[0];
