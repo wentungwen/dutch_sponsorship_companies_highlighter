@@ -19,8 +19,8 @@ function highlightElements(sponsorData, highlightClassName) {
     const firstLetter = eleContent[0];
 
     if (sponsorData[firstLetter]) {
-      sponsorData[firstLetter].forEach((target) => {
-        if (eleContent.includes(target) || target.includes(eleContent)) {
+      sponsorData[firstLetter].forEach((sponsor) => {
+        if (eleContent.includes(sponsor) || sponsor.includes(eleContent) || eleContent.includes("university")) {
           element.style.backgroundColor = "yellow";
         }
       });
