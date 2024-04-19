@@ -17,6 +17,5 @@
     "48": "icon.png",
     "128": "icon.png"
   },
-  "background": { "type": "module" },
   "minimum_chrome_version": "92"
 }

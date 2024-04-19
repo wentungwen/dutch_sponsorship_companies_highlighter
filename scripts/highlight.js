@@ -1,16 +1,13 @@
-import data from "../data/data";
-
-const url = "Linkedin";
+import { data } from "../data/data";
 
 function selectClassName() {
-  const hostname = windows.location.hostname.toLowerCase();
-
+  const hostname = window.location.hostname.toLowerCase();
   if (hostname.includes("linkedin")) {
     return ".job-card-container__primary-description";
   } else if (hostname.includes("indeed")) {
     return '[data-testid="company-name"]';
   } else {
-    return;
+    return null;
   }
 }
 
@@ -45,16 +42,23 @@ function debounce(callback, delay) {
 const debouncedHighlightElements = debounce(highlightElements, 500);
 
 window.addEventListener("DOMContentLoaded", function () {
-  highlightElements(data, selectClassName());
+  const className = selectClassName();
+  if (className) {
+    highlightElements(data, className);
+  }
 });
 
 // Observe mutations to the document
 const observer = new MutationObserver((mutationsList, observer) => {
   for (const mutation of mutationsList) {
     if (mutation.type === "childList") {
-      debouncedHighlightElements(data, selectClassName());
+      const className = selectClassName();
+      if (selectClassName) {
+        debouncedHighlightElements(data, className);
+      }
     }
   }
 });
 
 observer.observe(document.body, { childList: true, subtree: true });
+
