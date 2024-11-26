@@ -1,5 +1,5 @@
-export const data = {
-  "o": [
+const data = {
+  o: [
     "organisation",
     "o iii architecten",
     "o my bag",
@@ -109,7 +109,7 @@ export const data = {
     "omya netherlands",
     "on2it",
     "onc.europe",
-    "onderlinge verzekerings-maatschappij \"noord nederlandsche p&i club\" u.a.",
+    'onderlinge verzekerings-maatschappij "noord nederlandsche p&i club" u.a.',
     "onderlinge waarborgmaatschappij dsw zorgverzekeraar u.a.",
     "onderwijs innovatie groep",
     "onderwijsstichting esprit / amsterdam internationaal community school (aics)",
@@ -280,9 +280,9 @@ export const data = {
     "oyo hotels netherlands",
     "oyo vacation homes holding",
     "oz export",
-    "oz import"
+    "oz import",
   ],
-  "k": [
+  k: [
     "kvk number",
     "k_dekker bouw & infra b.v.",
     "k2view",
@@ -618,13 +618,13 @@ export const data = {
     "kyocera document solutions europe",
     "kyokuyo europe",
     "kyos energy consulting",
-    "kza"
+    "kza",
   ],
-  "\"": ["\"aae\" advanced automated equipment"],
+  '"': ['"aae" advanced automated equipment'],
   "@": ["@easepay", "@fentures"],
-  "0": ["01-10 architecten", "050media", "073 meeting company"],
-  "1": ["100 grams", "10x genomics", "12build sales", "180 amsterdam bv"],
-  "2": [
+  0: ["01-10 architecten", "050media", "073 meeting company"],
+  1: ["100 grams", "10x genomics", "12build sales", "180 amsterdam bv"],
+  2: [
     "2 getthere",
     "2 getthere holding",
     "20face",
@@ -635,9 +635,9 @@ export const data = {
     "2525 ventures",
     "2-b energy holding",
     "2care4kids holding",
-    "2m engineering limited"
+    "2m engineering limited",
   ],
-  "3": [
+  3: [
     "360kas",
     "361\u00b0 europe",
     "365werk contracting",
@@ -651,23 +651,23 @@ export const data = {
     "3p project services",
     "3s money club",
     "3sc analytics",
-    "3webapps"
+    "3webapps",
   ],
-  "4": [
+  4: [
     "4 minutes",
     "4dotnet",
     "4g clinical",
     "4people zuid",
     "4ps development",
-    "4web eu"
+    "4web eu",
   ],
-  "5": ["510.netherlands", "5bar assurance", "5ca"],
-  "7": ["7 solutions", "72andsunny nl"],
-  "8": [
+  5: ["510.netherlands", "5bar assurance", "5ca"],
+  7: ["7 solutions", "72andsunny nl"],
+  8: [
     "83design inc. europe representative office",
-    "8vance matching technologies"
+    "8vance matching technologies",
   ],
-  "a": [
+  a: [
     "a beautiful story",
     "a new hope",
     "a&s system integrators",
@@ -1252,7 +1252,7 @@ export const data = {
     "applied drone innovations",
     "applied materials europe",
     "applied medical europe",
-    "applied micro electronics \"ame\"",
+    'applied micro electronics "ame"',
     "applied nanolayers",
     "applied principles",
     "applied risk",
@@ -1546,9 +1546,9 @@ export const data = {
     "azerion tech productions",
     "azerion technology",
     "aziobot",
-    "azz wsi"
+    "azz wsi",
   ],
-  "b": [
+  b: [
     "b & c international",
     "b & s international",
     "b&c lifestyle",
@@ -1559,8 +1559,8 @@ export const data = {
     "b.v. alabastine (holland)",
     "b.v. arrow electronics dlc",
     "b.v. chiropractie rugcentra a.b. van beest d.c.",
-    "b.v. design-production link \"d.p.l.\"",
-    "b.v. rubberfabriek \"wittenburg\"",
+    'b.v. design-production link "d.p.l."',
+    'b.v. rubberfabriek "wittenburg"',
     "b.v. systemation aes",
     "b.v. twentsche kabelfabriek",
     "b.v. vitesse",
@@ -2144,9 +2144,9 @@ export const data = {
     "byldis prefab",
     "bynder",
     "byondis",
-    "byte"
+    "byte",
   ],
-  "c": [
+  c: [
     "c & d foods (netherlands)",
     "c teleport",
     "c&e development",
@@ -2886,10 +2886,10 @@ export const data = {
     "cymer",
     "cymo",
     "cytek biosciences",
-    "cytocypher"
+    "cytocypher",
   ],
   "\u00e7": ["\u00e7ak textile", "\u00e7alik denim"],
-  "d": [
+  d: [
     "d. solutions",
     "d. trading",
     "d.o.r.c. dutch ophthalmic research center (international)",
@@ -3397,9 +3397,9 @@ export const data = {
     "dyno-chiptuningfiles.com",
     "dyson",
     "dyson technology",
-    "dzm data solution"
+    "dzm data solution",
   ],
-  "e": [
+  e: [
     "e d & f man holdings",
     "e green europe",
     "e ink netherlands",
@@ -3952,10 +3952,10 @@ export const data = {
     "eyrise",
     "ez factory",
     "ez phone",
-    "ezviz europe"
+    "ezviz europe",
   ],
   "\u00e9": ["\u00e9psilon inversiones"],
-  "f": [
+  f: [
     "f&v photographic industry",
     "f.g. progress",
     "f.g. stijl",
@@ -4342,9 +4342,9 @@ export const data = {
     "fysioholland",
     "fysiotherapie de rietlanden",
     "fysiotherapie weerdsingel west",
-    "fysiowereld"
+    "fysiowereld",
   ],
-  "g": [
+  g: [
     "g. vermes",
     "g.b. electronics limited",
     "g.c. de jong construction",
@@ -4692,9 +4692,9 @@ export const data = {
     "gxo logistics services netherlands",
     "gymnastiek- en turnvereniging de hazenkamp",
     "gympass",
-    "gyron crew"
+    "gyron crew",
   ],
-  "h": [
+  h: [
     "h & h select",
     "h & m hennes & mauritz netherlands",
     "h&m hennes & mauritz services",
@@ -5114,9 +5114,9 @@ export const data = {
     "hyva holding",
     "hyva international",
     "hz / hz university of applied sciences",
-    "hzpc holding"
+    "hzpc holding",
   ],
-  "i": [
+  i: [
     "i & c services",
     "i am pop",
     "i hate statistics",
@@ -5275,7 +5275,7 @@ export const data = {
     "indg digitale communicatie",
     "india palace restaurant",
     "indian food factory",
-    "indian restaurant \"koh-i-noor\"",
+    'indian restaurant "koh-i-noor"',
     "indie",
     "indofil industries (netherlands)",
     "indorama holdings",
@@ -5459,7 +5459,7 @@ export const data = {
     "international solid waste association",
     "international step by step association",
     "international travel support centre",
-    "internationale montessori vereniging \"association montessori internationale\" a.m.i.",
+    'internationale montessori vereniging "association montessori internationale" a.m.i.',
     "internationale school eerde",
     "internationale school eerde",
     "internova professional lighting",
@@ -5617,9 +5617,9 @@ export const data = {
     "ix renewables",
     "ixar europe",
     "ixperts",
-    "izico katwijk"
+    "izico katwijk",
   ],
-  "j": [
+  j: [
     "j&j inspections",
     "j. de jonge shared service",
     "j. de ridder",
@@ -5752,9 +5752,9 @@ export const data = {
     "jw player netherlands",
     "jwt (netherlands) holding",
     "jx nippon finance netherlands",
-    "jy management holding"
+    "jy management holding",
   ],
-  "l": [
+  l: [
     "l - founders of loyalty group",
     "l&t technology services limited",
     "l1nda",
@@ -6064,9 +6064,9 @@ export const data = {
     "lyondell chemie nederland",
     "lyondellbasell industries holdings",
     "lytho",
-    "lyv"
+    "lyv",
   ],
-  "m": [
+  m: [
     "m moser associates",
     "m restart",
     "m restart secondment & solutions",
@@ -6121,7 +6121,7 @@ export const data = {
     "maersk logistics and services netherlands",
     "maestr",
     "maeve aerospace",
-    "magazijn \"de bijenkorf\"",
+    'magazijn "de bijenkorf"',
     "magenta technology consultants",
     "magic & young",
     "magister",
@@ -6724,9 +6724,9 @@ export const data = {
     "myon forwarding & customs",
     "mysocialdatabase.com",
     "mysolution",
-    "mystar computer"
+    "mystar computer",
   ],
-  "n": [
+  n: [
     "n g foods",
     "n.v. ado den haag",
     "n.v. afvalzorg holding",
@@ -7125,14 +7125,14 @@ export const data = {
     "nyenrode new business school",
     "nyk holding (europe)",
     "nyrstar budel",
-    "nyrstar netherlands (holdings)"
+    "nyrstar netherlands (holdings)",
   ],
   "\u00f6": [
     "\u00f6ssur europe",
     "\u00f6z & er food",
-    "\u00f6zbaktat supermarkt"
+    "\u00f6zbaktat supermarkt",
   ],
-  "p": [
+  p: [
     "p & o ferrymasters",
     "p&m netherlands",
     "p. van der wegen gears",
@@ -7644,13 +7644,13 @@ export const data = {
     "pytes",
     "pyton communication services",
     "pzem energy company",
-    "pzem n.v."
+    "pzem n.v.",
   ],
   "'": [
     "'petite am\u00e9lie' nederland",
-    "'rotterdam community solutions' (rotterdam c.s.)"
+    "'rotterdam community solutions' (rotterdam c.s.)",
   ],
-  "q": [
+  q: [
     "q*bird",
     "qardio netherlands",
     "qatar airways group (q.c.s.c.)",
@@ -7734,9 +7734,9 @@ export const data = {
     "quosphere",
     "qurin diagnostics",
     "quyntess",
-    "qyp"
+    "qyp",
   ],
-  "r": [
+  r: [
     "r&e installaties",
     "r&r mechatronics international",
     "r&r wfm holding",
@@ -8112,9 +8112,9 @@ export const data = {
     "rwe renewables benelux",
     "ryberg",
     "ryder cycling",
-    "rymax"
+    "rymax",
   ],
-  "s": [
+  s: [
     "s&p dji netherlands",
     "s. khonkaen foods (netherlands)",
     "s.c. johnson europe",
@@ -8918,7 +8918,7 @@ export const data = {
     "stibbe",
     "stibo systems",
     "stichd",
-    "stichting \"institute for international criminal investigations foundation\"",
+    'stichting "institute for international criminal investigations foundation"',
     "stichting aba roli netherlands",
     "stichting accare, universitaire en algemene kinder- en jeugdpsychiatrie noord-nederland",
     "stichting access to medicine foundation",
@@ -9083,7 +9083,7 @@ export const data = {
     "stichting naturalis biodiversity center",
     "stichting nederlands helsinki comit\u00e9",
     "stichting nederlands instituut voor beeld en geluid",
-    "stichting nederlands instituut voor internationale betrekkingen \"clingendael\"",
+    'stichting nederlands instituut voor internationale betrekkingen "clingendael"',
     "stichting nederlandse wetenschappelijk onderzoek instituten",
     "stichting netherlands escience center",
     "stichting netherlands institute for multiparty democracy",
@@ -9372,9 +9372,9 @@ export const data = {
     "sytac",
     "sytac development",
     "sytac digital",
-    "sytac technologies"
+    "sytac technologies",
   ],
-  "t": [
+  t: [
     "t&p projecten",
     "t. stolze installatietechniek",
     "t.e.c. (tabata europe corporation)",
@@ -10064,9 +10064,9 @@ export const data = {
     "tyromer europe ip",
     "tyson foods europe",
     "tyson foods holland",
-    "tyson foods oosterwolde"
+    "tyson foods oosterwolde",
   ],
-  "u": [
+  u: [
     "u.s. wheat associates, inc.",
     "uarchitects",
     "ubbink nederland",
@@ -10207,9 +10207,9 @@ export const data = {
     "utopia exploitatie",
     "utr8 holding",
     "utrechtse zwemclub-star-combinatie (u.z.s.c.)",
-    "uxus europe"
+    "uxus europe",
   ],
-  "v": [
+  v: [
     "v.b.i. ontwikkeling",
     "v.o.f. fysiotherapie konings-pinxteren",
     "v.o.f. van gulik",
@@ -10607,9 +10607,9 @@ export const data = {
     "vx company it services",
     "vye consulting",
     "vynova beek",
-    "vysus netherlands"
+    "vysus netherlands",
   ],
-  "w": [
+  w: [
     "w&o personeels-b.v.",
     "w.b. stables",
     "w.digital",
@@ -10849,9 +10849,9 @@ export const data = {
     "wurth finance international",
     "wuunder nederland",
     "wwt netherlands",
-    "wypoon technologies"
+    "wypoon technologies",
   ],
-  "x": [
+  x: [
     "x17 group",
     "x5 retail group n.v.",
     "xces",
@@ -10903,9 +10903,9 @@ export const data = {
     "xximo financial services",
     "xximo holding",
     "xxllnc zaakgericht",
-    "xyzprinting netherlands"
+    "xyzprinting netherlands",
   ],
-  "y": [
+  y: [
     "ya works",
     "yaband telecom",
     "yacht",
@@ -10990,9 +10990,9 @@ export const data = {
     "yunexpress supply chain solution",
     "yusen logistics (benelux)",
     "yusen logistics (europe)",
-    "yxion"
+    "yxion",
   ],
-  "z": [
+  z: [
     "zaffra",
     "zafin labs ag",
     "zalando logistics operations netherlands",
@@ -11079,6 +11079,6 @@ export const data = {
     "zvc netherlands",
     "zycus infotech netherlands",
     "zylab technologies",
-    "zyxel communications"
-  ]
-}
+    "zyxel communications",
+  ],
+};
