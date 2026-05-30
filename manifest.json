@@ -9,7 +9,7 @@
         "https://*.linkedin.com/*",
         "https://*.indeed.com/*"
       ],
-      "js": ["scripts/highlight.js"]
+      "js": ["data/data.js", "scripts/highlight.js"]
     }
   ],
   "icons": {
